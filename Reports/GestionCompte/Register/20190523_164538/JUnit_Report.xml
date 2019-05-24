@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="41" tests="5" failures="0" errors="0">
+   <testsuite name="Register" tests="5" failures="0" errors="0" time="41" timestamp="2019-05-23 16:45:40" hostname="Bart - DESKTOP-81JHSGS" id="Test Suites/GestionCompte/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538"/>
+         <property name="logFiles" value="C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622749065.png, C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622757733.png, C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622764748.png, C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622773133.png, C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622780217.png"/>
+         <property name="hostName" value="Bart - DESKTOP-81JHSGS"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.8.40"/>
+         <property name="sessionId" value="5e3505bf2c0b175b2bf99886cc9e1ca8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GestionCompte/Creation_compte" classname="Test Cases/GestionCompte/Creation_compte" status="PASSED">
+         <system-out><![CDATA[2019-05-23 16:45:40 - [TEST_CASE][PASSED] - Test Cases/GestionCompte/Creation_compte: Test Cases/GestionCompte/Creation_compte
+
+2019-05-23 16:45:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 16:45:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-23 16:45:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-23 16:45:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 16:45:44 - [TEST_STEP][PASSED] - navigateToUrl("http://demowebshop.tricentis.com/"): Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:45:47 - [MESSAGE][PASSED] - Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/a_Register")): Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - click(findTestObject("demo_shop/input_Gender_Gender")): Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_First name_FirstName"), "Bart"): Text 'Bart' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:45:47 - [MESSAGE][PASSED] - Text 'Bart' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Last name_LastName"), "Prout"): Text 'Prout' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:45:47 - [MESSAGE][PASSED] - Text 'Prout' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - min = 10: null
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - max = 200: null
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - result = rand.nextInt() * max - min + min: null
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - mail = "": null
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - mail = concatenate(["testprout", result, "@yopmail.com"], STOP_ON_FAILURE): Concatenated string array: '['testprout','1672227132','@yopmail.com']' into 'testprout1672227132@yopmail.com'
+
+2019-05-23 16:45:47 - [MESSAGE][PASSED] - Concatenated string array: '['testprout','1672227132','@yopmail.com']' into 'testprout1672227132@yopmail.com'
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Email_Email"), mail): Text 'testprout1672227132@yopmail.com' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:45:47 - [MESSAGE][PASSED] - Text 'testprout1672227132@yopmail.com' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:45:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Password_Password"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:45:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:45:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Confirm password_ConfirmPassword"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:45:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:45:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/input__register-button")): Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:45:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/demo_shop/div_Your registration completed"), "Your registration completed"): Actual text and expected text of test object 'Object Repository/demo_shop/div_Your registration completed' are matched.
+
+2019-05-23 16:45:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/demo_shop/div_Your registration completed' are matched.
+
+2019-05-23 16:45:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-23 16:45:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622749065.png]]
+
+2019-05-23 16:45:49 - [TEST_STEP][PASSED] - click(findTestObject("demo_shop/registration_completed-continue-button")): Object: 'Object Repository/demo_shop/registration_completed-continue-button' is clicked on
+
+2019-05-23 16:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/registration_completed-continue-button' is clicked on
+
+2019-05-23 16:45:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/a_Log out")): Object: 'Object Repository/demo_shop/a_Log out' is clicked on
+
+2019-05-23 16:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/a_Log out' is clicked on
+
+2019-05-23 16:45:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-23 16:45:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GestionCompte/Creation_compte_np_mailexistant" classname="Test Cases/GestionCompte/Creation_compte_np_mailexistant" status="PASSED">
+         <system-out><![CDATA[2019-05-23 16:45:50 - [TEST_CASE][PASSED] - Test Cases/GestionCompte/Creation_compte_np_mailexistant: Test Cases/GestionCompte/Creation_compte_np_mailexistant
+
+2019-05-23 16:45:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 16:45:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-23 16:45:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 16:45:53 - [TEST_STEP][PASSED] - navigateToUrl("http://demowebshop.tricentis.com/"): Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:45:56 - [MESSAGE][PASSED] - Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/a_Register")): Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/input_Gender_Gender")): Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_First name_FirstName"), "Bart"): Text 'Bart' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:45:56 - [MESSAGE][PASSED] - Text 'Bart' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Last name_LastName"), "Prout"): Text 'Prout' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:45:56 - [MESSAGE][PASSED] - Text 'Prout' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Email_Email"), "testprout1@yopmail.com"): Text 'testprout1@yopmail.com' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:45:56 - [MESSAGE][PASSED] - Text 'testprout1@yopmail.com' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:45:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Password_Password"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:45:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:45:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Confirm password_ConfirmPassword"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:45:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:45:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/input__register-button")): Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:45:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("demo_shop/li_The specified email already exists"), 0): Object 'Object Repository/demo_shop/li_The specified email already exists' is present
+
+2019-05-23 16:45:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-23 16:45:57 - [MESSAGE][PASSED] - Object 'Object Repository/demo_shop/li_The specified email already exists' is present
+
+2019-05-23 16:45:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("demo_shop/li_The specified email already exists"), "The specified email already exists"): Actual text and expected text of test object 'Object Repository/demo_shop/li_The specified email already exists' are matched.
+
+2019-05-23 16:45:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/demo_shop/li_The specified email already exists' are matched.
+
+2019-05-23 16:45:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-23 16:45:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622757733.png]]
+
+2019-05-23 16:45:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-23 16:45:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GestionCompte/Creation_compte_np_nofirstname" classname="Test Cases/GestionCompte/Creation_compte_np_nofirstname" status="PASSED">
+         <system-out><![CDATA[2019-05-23 16:45:58 - [TEST_CASE][PASSED] - Test Cases/GestionCompte/Creation_compte_np_nofirstname: Test Cases/GestionCompte/Creation_compte_np_nofirstname
+
+2019-05-23 16:45:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 16:45:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-23 16:46:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 16:46:01 - [TEST_STEP][PASSED] - navigateToUrl("http://demowebshop.tricentis.com/"): Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:46:03 - [MESSAGE][PASSED] - Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:46:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/a_Register")): Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:46:03 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:46:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/input_Gender_Gender")): Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:46:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_First name_FirstName"), ""): Text '' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:46:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:46:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Last name_LastName"), "Prout"): Text 'Prout' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:46:04 - [MESSAGE][PASSED] - Text 'Prout' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:46:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Email_Email"), "testprout5@yopmail.com"): Text 'testprout5@yopmail.com' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:46:04 - [MESSAGE][PASSED] - Text 'testprout5@yopmail.com' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:46:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Password_Password"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:46:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:46:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Confirm password_ConfirmPassword"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:46:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:46:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/input__register-button")): Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:46:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("demo_shop/span_First name is required."), 0): Object 'Object Repository/demo_shop/span_First name is required.' is present
+
+2019-05-23 16:46:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-23 16:46:04 - [MESSAGE][PASSED] - Object 'Object Repository/demo_shop/span_First name is required.' is present
+
+2019-05-23 16:46:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("demo_shop/span_First name is required."), "First name is required."): Actual text and expected text of test object 'Object Repository/demo_shop/span_First name is required.' are matched.
+
+2019-05-23 16:46:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/demo_shop/span_First name is required.' are matched.
+
+2019-05-23 16:46:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-23 16:46:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622764748.png]]
+
+2019-05-23 16:46:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-23 16:46:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GestionCompte/Creation_compte_np_nolastname" classname="Test Cases/GestionCompte/Creation_compte_np_nolastname" status="PASSED">
+         <system-out><![CDATA[2019-05-23 16:46:05 - [TEST_CASE][PASSED] - Test Cases/GestionCompte/Creation_compte_np_nolastname: Test Cases/GestionCompte/Creation_compte_np_nolastname
+
+2019-05-23 16:46:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 16:46:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-23 16:46:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 16:46:08 - [TEST_STEP][PASSED] - navigateToUrl("http://demowebshop.tricentis.com/"): Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:46:11 - [MESSAGE][PASSED] - Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/a_Register")): Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/input_Gender_Gender")): Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_First name_FirstName"), "Bart"): Text 'Bart' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:46:12 - [MESSAGE][PASSED] - Text 'Bart' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Last name_LastName"), ""): Text '' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:46:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Email_Email"), "testprout5@yopmail.com"): Text 'testprout5@yopmail.com' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:46:12 - [MESSAGE][PASSED] - Text 'testprout5@yopmail.com' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:46:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Password_Password"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:46:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:46:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Confirm password_ConfirmPassword"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:46:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/input__register-button")): Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:46:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("demo_shop/span_Last name is required."), 0): Object 'Object Repository/demo_shop/span_Last name is required.' is present
+
+2019-05-23 16:46:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-23 16:46:13 - [MESSAGE][PASSED] - Object 'Object Repository/demo_shop/span_Last name is required.' is present
+
+2019-05-23 16:46:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("demo_shop/span_Last name is required."), "Last name is required."): Actual text and expected text of test object 'Object Repository/demo_shop/span_Last name is required.' are matched.
+
+2019-05-23 16:46:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/demo_shop/span_Last name is required.' are matched.
+
+2019-05-23 16:46:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-23 16:46:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622773133.png]]
+
+2019-05-23 16:46:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-23 16:46:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GestionCompte/Creation_compte_np_nomail" classname="Test Cases/GestionCompte/Creation_compte_np_nomail" status="PASSED">
+         <system-out><![CDATA[2019-05-23 16:46:14 - [TEST_CASE][PASSED] - Test Cases/GestionCompte/Creation_compte_np_nomail: Test Cases/GestionCompte/Creation_compte_np_nomail
+
+2019-05-23 16:46:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-23 16:46:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-23 16:46:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-23 16:46:16 - [TEST_STEP][PASSED] - navigateToUrl("http://demowebshop.tricentis.com/"): Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:46:19 - [MESSAGE][PASSED] - Navigate to 'http://demowebshop.tricentis.com/' successfully
+
+2019-05-23 16:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/a_Register")): Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/a_Register' is clicked on
+
+2019-05-23 16:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/input_Gender_Gender")): Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input_Gender_Gender' is clicked on
+
+2019-05-23 16:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_First name_FirstName"), "Bart"): Text 'Bart' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:46:19 - [MESSAGE][PASSED] - Text 'Bart' is set on object 'Object Repository/demo_shop/input_First name_FirstName'
+
+2019-05-23 16:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Last name_LastName"), "Prout"): Text 'Prout' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:46:19 - [MESSAGE][PASSED] - Text 'Prout' is set on object 'Object Repository/demo_shop/input_Last name_LastName'
+
+2019-05-23 16:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/demo_shop/input_Email_Email"), ""): Text '' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:46:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/demo_shop/input_Email_Email'
+
+2019-05-23 16:46:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Password_Password"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:46:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Password_Password'
+
+2019-05-23 16:46:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/demo_shop/input_Confirm password_ConfirmPassword"), "7hWgzki6p2TSj7fH1Rb3uQ=="): Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:46:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demo_shop/input_Confirm password_ConfirmPassword'
+
+2019-05-23 16:46:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/demo_shop/input__register-button")): Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/demo_shop/input__register-button' is clicked on
+
+2019-05-23 16:46:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("demo_shop/span_Email is required."), 0): Object 'Object Repository/demo_shop/span_Email is required.' is present
+
+2019-05-23 16:46:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-23 16:46:20 - [MESSAGE][PASSED] - Object 'Object Repository/demo_shop/span_Email is required.' is present
+
+2019-05-23 16:46:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("demo_shop/span_Email is required."), "Email is required."): Actual text and expected text of test object 'Object Repository/demo_shop/span_Email is required.' are matched.
+
+2019-05-23 16:46:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/demo_shop/span_Email is required.' are matched.
+
+2019-05-23 16:46:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-23 16:46:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Bart\\Katalon Studio\\DemoWebShop\\Reports\\GestionCompte\\Register\\20190523_164538\\1558622780217.png]]
+
+2019-05-23 16:46:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-23 16:46:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-23 16:45:40 - [TEST_SUITE][PASSED] - Register: Test Cases/GestionCompte/Creation_compte_np_nomail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Création d'un compte avec un jeu de données valides, vérification de la création correcte du compte.</description>
+   <name>Creation_compte_np_nofirstname</name>
+   <tag>register</tag>
+   <comment></comment>
+   <testCaseGuid>38191c9b-ce05-4bd7-975b-6f2a2389ab24</testCaseGuid>
+</TestCaseEntity>
